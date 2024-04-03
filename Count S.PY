@@ -27,7 +27,7 @@ for i in range(1, n//2 + 1):
                 if A[p][k] == "o":
                     T = False
                     break
-            for p in range(k, k + i + 1):
+            for p in range(j, j + i + 1):
                 if A[p + i][k + i] == "o":
                     T = False
                     break
